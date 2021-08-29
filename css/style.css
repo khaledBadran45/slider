@@ -1,0 +1,54 @@
+body{
+    background-color:white;
+}
+
+
+.caption{
+    position: absolute;
+    bottom: 20px;
+    font-family: serif;
+    
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    background-color: aliceblue;
+    
+}
+
+
+#fixedBox{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:none;
+  
+    justify-content: center;
+    align-items: center;
+}
+
+#smallBox{
+    width: 50%;
+    height: 50%;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size:100% 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ position: relative;
+ transition: all 1s;
+}
+
+#closeBtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+i , img{
+
+    cursor: pointer;
+
+}
